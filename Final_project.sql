@@ -5,7 +5,6 @@ SELECT
   products.Price AS product_price,
   orders.Quantity AS order_qty,
   (orders.Quantity * products.Price) AS total_sales,
--- saya gunakan untuk membersihkan tanda '#' pada CustomerEmail
   SPLIT(customers.CustomerEmail, '#')[OFFSET(0)] AS cust_email,
   customers.CustomerCity AS cust_city
 
@@ -19,5 +18,6 @@ LEFT JOIN `project-final-bianalyst-01.final_project.products` AS products
 
 LEFT JOIN `project-final-bianalyst-01.final_project.product_category` AS category
   ON products.Category = category.CategoryID
+
 
 ORDER BY order_date
