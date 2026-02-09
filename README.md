@@ -1,8 +1,8 @@
-#Dashboard - Project Based Internship Bank Muamalat
+#Project Based Internship Bank Muamalat
 
 This Repository contains my final project for the Project Based Internship Program as Business Intelligence Analyst at Bank Muamalat
 
-##Project Contens
+##Project Contens:
 - SQLquery for data processing
 - Cleaning CSV dataset
 - Sales performance dashboard (looker studio)
